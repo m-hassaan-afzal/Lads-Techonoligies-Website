@@ -90,10 +90,10 @@ const CreativeOnePage = () => {
       We do not tell you our story. We write it together. Partnering with us
       means a seat at the table where you will be heard.
     </CTAOne>
-      
+    <FooterOne />
     </div>
     
-      <FooterOne />
+   
     </Loader>
   );
 };

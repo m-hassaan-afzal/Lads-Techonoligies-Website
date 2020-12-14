@@ -92,7 +92,7 @@ const ContactForm = ({ title, tagline }) => {
             name="submit"
             className="btn btn-color btn-circle"
           >
-            Book Now
+           Send
           </button>
         </ReactWOW>
       </form>

@@ -1,6 +1,6 @@
 import React from "react";
 import logoWhite from "../assets/images/latslogo.png";
-import logoBlack from "../assets/images/logo-black.png";
+import logoBlack from "../assets/images/latslogo.png";
 import Icofont from "react-icofont";
 
 const MainLogo = ({ collapse, showMenu }) => {

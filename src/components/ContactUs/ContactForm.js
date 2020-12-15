@@ -90,9 +90,18 @@ const ContactForm = ({ title, tagline }) => {
           <button
             type="submit"
             name="submit"
-            className="btn btn-color btn-circle"
+            className="btn btn-green btn-circle"
+            
           >
            Send
+          </button>
+          <button
+            type="Link"
+            name="back"
+            className="btn btn-dark btn-circle"
+            to="/"
+          >
+           Back
           </button>
         </ReactWOW>
       </form>

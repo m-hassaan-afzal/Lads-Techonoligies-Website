@@ -13,12 +13,12 @@ const ContactForm = ({ title, tagline }) => {
     <>
       {title && (
         <ReactWOW animation="fadeTop" delay="0.1s">
-          <h2 className="text-uppercase font-700">{title}</h2>
+          <h2 style={{color:"white"}} className="text-uppercase font-700">{title}</h2>
         </ReactWOW>
       )}
       {tagline && (
         <ReactWOW animation="fadeTop" delay="0.1s">
-          <h4 className="text-uppercase">- {tagline} -</h4>
+          <h4 style={{color:"white"}} className="text-uppercase">- {tagline} -</h4>
         </ReactWOW>
       )}
       <form

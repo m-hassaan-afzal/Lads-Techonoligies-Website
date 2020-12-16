@@ -1,5 +1,7 @@
 import React from "react";
 import parse from "html-react-parser";
+import ContactForm from "../ContactUs/ContactForm";
+import IMG from "../../assets/images/help-img.jpg"
 
 const CTAOne = ({ title, tagline, bg, textButton, linkButton, children }) => (
   <section
@@ -13,14 +15,15 @@ const CTAOne = ({ title, tagline, bg, textButton, linkButton, children }) => (
           <div className="cta-heading-left">
             {tagline && <p className="subtitle mt-20">{tagline}</p>}
             {title && <h3>{title}</h3>}
+            <img src={IMG}></img>
           </div>
         </div>
         <div className="col-md-1"></div>
         <div className="col-md-6">
-          <div className="cta-heading-right">
+          <div className="cta-heading-right ">
             <p className="mt-20 content-text">{children && parse(children)}</p>
             <p className="mt-50">
-              <a
+              {/* <a
                 className={
                   "btn btn-rounded " +
                   (bg && bg === "dark" ? "btn-color" : "btn-white")
@@ -28,7 +31,8 @@ const CTAOne = ({ title, tagline, bg, textButton, linkButton, children }) => (
                 href={linkButton}
               >
                 {textButton}
-              </a>
+              </a> */}
+               <ContactForm title="Contact Us" tagline="Stay in Touch" />
             </p>
           </div>
         </div>

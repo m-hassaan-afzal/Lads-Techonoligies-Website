@@ -6,7 +6,7 @@ import HeaderTwo from "../../components/Header/HeaderTwo";
 import HeroSliderSection from "../../components/Hero/HeroSliderSection";
 import OurServices from "../../components/OurServices/OurServices";
 import OurTeam from "../../components/Team/OurTeam";
-import ContactUs from "../../components/ContactUs/ContactUs";
+
 import CTAOne from "../../components/CTA/CTAOne";
 import FooterOne from "../../components/Footer/FooterOne";
 import WhoWeAreOne from "../../components/WhoWeAre/WhoWeAreOne";
@@ -79,7 +79,7 @@ const CreativeOnePage = () => {
       
 
         <div ref={contact}>
-         
+        
       <CTAOne
       tagline="careers"
       title="Let's write your story, together."

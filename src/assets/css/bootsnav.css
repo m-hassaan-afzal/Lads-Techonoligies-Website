@@ -1455,6 +1455,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
     .attr-nav{
         right: 30px;
+        display: none;
     }
 
     .attr-nav > ul{

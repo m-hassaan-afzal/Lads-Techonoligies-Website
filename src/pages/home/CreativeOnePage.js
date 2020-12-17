@@ -5,6 +5,7 @@ import serviceOneImg from "../../assets/images/onepage-bg-left.jpg";
 import HeaderTwo from "../../components/Header/HeaderTwo";
 import HeroSliderSection from "../../components/Hero/HeroSliderSection";
 import OurServices from "../../components/OurServices/OurServices";
+import WhoWeAreNine from "../../components/WhoWeAre/WhoWeAreNine";
 import OurTeam from "../../components/Team/OurTeam";
 
 import CTAOne from "../../components/CTA/CTAOne";
@@ -66,6 +67,7 @@ const CreativeOnePage = () => {
           serviceImg={serviceOneImg}
           ref={service}
         />
+        <WhoWeAreNine />
     
 
        <div ref={team}>

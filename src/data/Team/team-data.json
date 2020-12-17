@@ -67,28 +67,6 @@
                 "link": "!#"
             }
         ]
-    },
-    {
-        "id": 3,
-        "name": "Nicholas Hart",
-        "role": "Web Developer",
-        "image": "team/team-03.jpg",
-        "social": [
-            {
-                "id": 1,
-                "icon": "facebook",
-                "link": "!#"
-            },
-            {
-                "id": 2,
-                "icon": "twitter",
-                "link": "!#"
-            },
-            {
-                "id": 3,
-                "icon": "youtube",
-                "link": "!#"
-            }
-        ]
     }
+  
 ]

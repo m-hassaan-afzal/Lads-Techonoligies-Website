@@ -8,7 +8,7 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
     <div className="col-md-6 col-sm-4 bg-flex bg-flex-left">
       <div
         className="bg-flex-holder bg-flex-cover"
-        style={{ backgroundImage: `url(${serviceImg})` }}
+        style={{ backgroundImage: `url(${serviceImg})`,backgroundSize:"contain"}}
       ></div>
     </div>
     <div className="container">

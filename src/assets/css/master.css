@@ -1668,7 +1668,10 @@ ul#portfolio-grid.two-column>li{
     ul#portfolio-grid.three-column>li{
         width: 50%;
     }
+    .left_parallax{display: none;}
+    .right_parallax{display: none;}
 }
+
 @media (max-width: 480px) {
     ul#portfolio-grid.five-column>li,
     ul#portfolio-grid.four-column>li,

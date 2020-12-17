@@ -14,7 +14,7 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
     </div>
     <div className="row service-box-style-01 mt-50">
       {dataServices.map((service) => (
-        <div className="col-md-6 col-sm-6 col" key={service.id}>
+        <div className="col-md-4 col-sm-6 col" key={service.id}>
           <div className="flipper">
             <div className="text-center mb-50 main-box">
               <div className="box-front height-500px white-bg">

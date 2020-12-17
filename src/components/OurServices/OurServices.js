@@ -14,7 +14,7 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
     </div>
     <div className="row service-box-style-01 mt-50">
       {dataServices.map((service) => (
-        <div className="col-md-6 col-sm-4 col-xs-12" key={service.id}>
+        <div className="col-md-6 col-sm-6 col" key={service.id}>
           <div className="flipper">
             <div className="text-center mb-50 main-box">
               <div className="box-front height-500px white-bg">
@@ -27,7 +27,7 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
                   <p className="font-400 mt-20 dark-color">{service.text}</p>
                 </div>
               </div>
-              <div className="box-back height-300px yellow-bg">
+              <div className="box-back height-500px yellow-bg">
                 <div className="content-wrap">
                   <Icofont
                     icon={service.icon}

@@ -61,9 +61,14 @@ const CreativeOnePage = () => {
        
       </div> 
       
-        <div ref={service}>
-        <WhoWeAreNine />
-        </div>
+        <OurServices
+          title="What We Do"
+          tagline="We develop big ideas that sell."
+          serviceImg={serviceOneImg}
+          ref={service}
+        />
+       
+    
 
        <div ref={team}>
       <OurTeam title="MEET OUR TEAM" tagline="WE ARE STRONGER" bg="white"   />

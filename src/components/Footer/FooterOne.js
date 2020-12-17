@@ -20,11 +20,7 @@ const FooterOne = () => (
                   </a>
                 </div>
                 <p>
-                  We are a fully in-house digital agency focusing on branding,
-                  marketing, web design and development with clients ranging
-                  from start-ups, Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Sed varius quam ut magna ultricies
-                  pellentesque.
+                Were a creative technology lab that delivers ground breaking experiences through web and mobile development, we have no boundaries in terms of ability if a client needs a certain piece of functionality or flow, Lads Technology will put time and effort into learning what it will take to complete that task.
                 </p>
               </div>
             </div>
@@ -78,7 +74,7 @@ const FooterOne = () => (
                 <ul>
                   <li>
                     <i className="icofont icofont-google-map"></i>
-                    <a href="#!">Park Lane Llandrindod Wells, LD7 9QW</a>
+                    <a href="#!">Plaza number 206 hub commercial bahira town phase 8</a>
                   </li>
                   <li>
                     <i className="icofont icofont-iphone"></i>

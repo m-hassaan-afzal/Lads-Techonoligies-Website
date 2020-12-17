@@ -50,15 +50,12 @@ const CreativeOnePage = () => {
     <div ref={about}
    >
      <WhoWeAreOne
-      title="We're Scoda Agency"
-      tagline="THE WAY WE WORK IS FUN"
+      title="We’r Full Fledged Digital Agency Creating Awesome Things"
+      tagline="We Love What We Do"
       verticalWord="Design"
       horizontalWord="Creative."
     >
-      We are a fully in-house digital agency focusing on branding, marketing,
-      web design and development with clients ranging from start-ups. We pride
-      ourselves on partnering with clients in order to give the most transparent
-      and educational experience.
+      We develop innovative and creative products and services that provide total communication and information solutions. Our emphasis is on offering a high degree of product user friendliness through a positive, creative and focused company staff.
     </WhoWeAreOne>
        
       </div> 
@@ -87,8 +84,8 @@ const CreativeOnePage = () => {
       linkButton="contactus"
       
     >
-      We do not tell you our story. We write it together. Partnering with us
-      means a seat at the table where you will be heard.
+     We believe in “learn one, do one, teach one”. Each new member of the Our team is assigned a mentor for their professional, personal and career development. Lets Work Together send us your resume:
+      
     </CTAOne>
     <FooterOne />
     </div>

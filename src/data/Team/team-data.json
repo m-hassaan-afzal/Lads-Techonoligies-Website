@@ -69,15 +69,15 @@
         ]
     },
     {
-        "id": 4,
-        "name": "Grace Ross",
-        "role": "CEO / Founder",
-        "image": "team/team-04.jpg",
+        "id": 3,
+        "name": "Nicholas Hart",
+        "role": "Web Developer",
+        "image": "team/team-03.jpg",
         "social": [
             {
                 "id": 1,
                 "icon": "facebook",
-                "link": "graceross"
+                "link": "!#"
             },
             {
                 "id": 2,

@@ -1,43 +1,22 @@
 [
     {
       "id": 1,
-      "title": "DESIGN & DEVELOPMENT",
-      "tagline": "User Experience",
-      "text": "The state-of-the-art development skills and stunning design.",
-      "image": "slides/home-bg-26.jpg",
+      "title": "Lads Techonologies",
+      "tagline": "Developing & Designing",
+      "text": "For the past several years, our team has developed customize Mobile Applications on iOS and Android Platforms. As a mobile app development company, we have expert and experienced mobile app developers that can meet all business and industry needs.",
+      "image": "slides/home-bg-1.jpg",
       "buttons": [
-        {
-          "id": 1,
-          "text": "KNOW MORE",
-          "link": "!#",
-          "type": "btn-circle btn-color"
-        },
-        {
-            "id": 2,
-            "text": "CONTACT US",
-            "link": "!#",
-            "type":"btn-circle btn-outline-white"
-          }
+     
       ]
     },
     {
       "id": 2,
-      "title": "IDENTITY DESIGN",
-      "tagline": "Brand Strategy",
-      "image": "slides/home-bg-27.jpg",
+      "title": "IDENTIFICATION DESIGN",
+      "tagline": "Research & Problem Solving",
+      "text":"As a Leading Software house in Pakistan, We have designed hundreds of Websites, Mobile Apps, Logos and Icons for our clients with a unique research-based process. Our software house is spreading the best services in the industry of IT.",
+      "image": "slides/home-bg-2.jpg",
       "buttons": [
-        {
-          "id": 1,
-          "text": "LEARN MORE",
-          "link": "!#",
-          "type":"btn-circle btn-color"
-        },
-        {
-          "id": 2,
-          "text": "OUR SERVICES",
-          "link": "!#",
-          "type":"btn-circle btn-outline-white"
-        }
+       
       ]
     }
   ]

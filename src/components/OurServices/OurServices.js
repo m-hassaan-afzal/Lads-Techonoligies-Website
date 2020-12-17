@@ -5,14 +5,9 @@ import ReactWOW from "react-wow";
 
 const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
   <section className="white-bg" id="service" ref={ref}>
-    <div className="col-md-6 col-sm-4 bg-flex bg-flex-left">
-      <div
-        className="bg-flex-holder bg-flex-cover"
-        style={{ backgroundImage: `url(${serviceImg})`,backgroundSize:"contain"}}
-      ></div>
-    </div>
+ 
     <div className="container">
-      <div className="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
+      <div className="col-md-12 col-sm-7 ">
         <ReactWOW animation="fadeTop" delay="0.1s">
           <h2 className="font-700">{title}</h2>
         </ReactWOW>

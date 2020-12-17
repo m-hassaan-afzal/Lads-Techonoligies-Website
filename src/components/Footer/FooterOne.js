@@ -76,10 +76,10 @@ const FooterOne = () => (
                     <i className="icofont icofont-google-map"></i>
                     <a href="#!">Plaza number 206 hub commercial bahira town phase 8</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="icofont icofont-iphone"></i>
                     <a href="#!">+44 1632 960290</a>
-                  </li>
+                  </li> */}
                   <li>
                     <i className="icofont icofont-mail"></i>
                     <a href="mailto:info@ladstech.com">info@ladstech.com</a>

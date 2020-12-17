@@ -84,7 +84,7 @@ const CreativeOnePage = () => {
       linkButton="contactus"
       
     >
-     We believe in “learn one, do one, teach one”. Each new member of the Our team is assigned a mentor for their professional, personal and career development. Lets Work Together send us your resume:
+     We believe in “learn one, do one, teach one”. Each new member of Our team is assigned a mentor for their professional, personal and career development. Lets Work Together send us your resume:
       
     </CTAOne>
     <FooterOne />

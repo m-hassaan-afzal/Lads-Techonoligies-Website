@@ -9,7 +9,7 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
     <div className="row">
       <div className="col-md-8 section-heading">
         <h2 className="text-uppercase white-color">What we DO</h2>
-        <hr className="text-center yellow-bg" />
+        <hr className="text-center white-bg" />
       </div>
     </div>
     <div className="row service-box-style-01 mt-50">
@@ -21,20 +21,20 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
                 <div className="content-wrap">
                   <Icofont
                     icon={service.icon}
-                    className="font-40px yellow-color"
+                    className="font-40px red-color"
                   />
                   <h3 className="font-600">{service.title}</h3>
                   <p className="font-400 mt-20 dark-color">{service.text}</p>
                 </div>
               </div>
-              <div className="box-back height-500px yellow-bg">
+              <div style={{border:"10px solid black"}} className="box-back height-500px white-bg">
                 <div className="content-wrap">
                   <Icofont
                     icon={service.icon}
-                    className="font-40px red-color"
+                    className="font-40px yellow-color"
                   />
-                  <h3 className="font-600 white-color">{service.title}</h3>
-                  <p className="font-400 mt-20 white-color">{service.text}</p>
+                  <h3 className="font-600 dark-color">{service.title}</h3>
+                  <p className="font-400 mt-20 dark-color">{service.text}</p>
                 </div>
               </div>
             </div>

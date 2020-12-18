@@ -2180,6 +2180,13 @@
   "resolved" "https://registry.npmjs.org/aws4/-/aws4-1.9.1.tgz"
   "version" "1.9.1"
 
+"axios@^0.21.0":
+  "integrity" "sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.0.tgz"
+  "version" "0.21.0"
+  dependencies:
+    "follow-redirects" "^1.10.0"
+
 "axobject-query@^2.0.2":
   "integrity" "sha512-ICt34ZmrVt8UQnvPl6TVyDTkmhXmAyAT4Jh5ugfGUX4MOrZ+U/ZY6/sdylRw3qGNr9Ub5AJsaHeDMzNLehRdOQ=="
   "resolved" "https://registry.npmjs.org/axobject-query/-/axobject-query-2.1.2.tgz"
@@ -4824,7 +4831,7 @@
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
 
-"follow-redirects@^1.0.0":
+"follow-redirects@^1.0.0", "follow-redirects@^1.10.0":
   "integrity" "sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg=="
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.1.tgz"
   "version" "1.13.1"
@@ -9298,6 +9305,11 @@
   "resolved" "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-2.0.4.tgz"
   "version" "2.0.4"
 
+"react-hook-form@^6.13.1":
+  "integrity" "sha512-Q0N7MYcbA8SigYufb02h9z97ZKCpIbe62rywOTPsK4Ntvh6fRTGDXSuzWuRhLHhArLoWbGrWYSNSS4tlb+OFXg=="
+  "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-6.13.1.tgz"
+  "version" "6.13.1"
+
 "react-icofont@^1.0.19":
   "integrity" "sha512-vuTiPDJ5nKJsiWcMk6GO6VyYMKR9E+T0V8a1J6ncU+iPxy9ht+nXiP6JbmPy155oazbGR/VmqzBDwKpRJP4oIQ=="
   "resolved" "https://registry.npmjs.org/react-icofont/-/react-icofont-1.0.19.tgz"
@@ -9602,7 +9614,7 @@
     "object-assign" "^4.1.0"
     "prop-types" "^15.5.10"
 
-"react@^16.0.0", "react@^16.12.0", "react@^16.13.1":
+"react@^16.0.0", "react@^16.12.0", "react@^16.13.1", "react@^16.8.0 || ^17":
   "integrity" "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.13.1.tgz"
   "version" "16.13.1"

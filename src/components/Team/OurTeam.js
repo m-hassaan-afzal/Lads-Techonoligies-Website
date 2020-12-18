@@ -3,6 +3,7 @@ import teamData from "../../data/Team/team-data.json";
 import HeadingSection from "../HeadingSection/HeadingSection";
 import TeamMember from "./TeamMember";
 
+
 const OurTeam = ({ title, tagline, bg, extraSpace }) => (
   <section className={"pb-0 " + (bg === "white" ? "dark-bg" : "")}>
     {extraSpace === "true" ? (

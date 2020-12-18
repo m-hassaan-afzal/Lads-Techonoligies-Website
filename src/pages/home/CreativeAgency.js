@@ -17,8 +17,8 @@ const CreativeAgency = () => (
     <HeaderOne />
     <HeroSliderSection data={dataSlider} />
     <WhoWeAreOne
-      title="We're Scoda Agency"
-      tagline="THE WAY WE WORK IS FUN"
+      title="We’r Full Fledged Digital Agency Creating Awesome Things"
+      tagline="We Love What We Do"
       verticalWord="Design"
       horizontalWord="Creative."
     >

@@ -41,15 +41,18 @@ const HeroSliderSection = forwardRef(({ data }, ref) => {
                     "hero-text-wrap " + (slide.bg ? "gradient-overlay-bg" : "")
                   }
                 >
-                  <div className="hero-text white-color">
-                    <div className="container text-center">
-                        <h2 className="white-color font-500 letter-spacing-5">
+                  <div className="hero-text">
+                    <div className="container  text-center">
+                        
+
+                    <h2  className="white-color font-500 letter-spacing-5">
                           {slide.tagline ? slide.tagline : ""}
                         </h2>
-                        <h1 className="white-color text-uppercase font-700">
+                        <h1 style={{color:""}} className=" white-color text-uppercase  font-700">
                           {slide.title}
                         </h1>
-                      <h3 className="white-color font-400">
+                        
+                      <h3  className="white-color font-400">
                         {slide.text ? parse(slide.text) : ""}
                       </h3>
                       {slide.buttons.length !== 0 ? (

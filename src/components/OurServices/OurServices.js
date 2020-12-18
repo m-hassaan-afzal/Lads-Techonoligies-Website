@@ -1,38 +1,54 @@
 import React, { forwardRef } from "react";
 import dataServices from "../../data/Services/our-services-two.json";
-import ServiceBox from "./ServiceBox";
-import ReactWOW from "react-wow";
 
+
+import Icofont from "react-icofont";
 const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
-  <section className="white-bg" id="service" ref={ref}>
-    <div className="col-md-6 col-sm-4 bg-flex bg-flex-left">
-      <div
-        className="bg-flex-holder bg-flex-cover"
-        style={{ backgroundImage: `url(${serviceImg})`,backgroundSize:"contain"}}
-      ></div>
-    </div>
-    <div className="container">
-      <div className="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
-        <ReactWOW animation="fadeTop" delay="0.1s">
-          <h2 className="font-700">{title}</h2>
-        </ReactWOW>
-        <ReactWOW animation="fadeTop" delay="0.2s">
-          <h4 className="mt-10 line-height-26">{tagline}</h4>
-        </ReactWOW>
-        <div className="left-service-box pt-40 pb-20 row">
-          {dataServices.map((service) => (
-            <ServiceBox
-              key={service.id}
-              icon={service.icon}
-              title={service.title}
-            >
-              {service.text}
-            </ServiceBox>
-          ))}
-        </div>
+  <section className="red-bg">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-8 section-heading">
+        <h2 className="text-uppercase white-color">What we DO</h2>
+        <hr className="text-center white-bg" />
       </div>
     </div>
-  </section>
+    <div className="row service-box-style-01 mt-50">
+      {dataServices.map((service) => (
+        <div className="col-md-4 col-sm-6 col" key={service.id}>
+          <div className="flipper">
+            <div className="text-center mb-50 main-box">
+              <div className="box-front height-500px white-bg">
+                <div className="content-wrap">
+                  <Icofont
+                    icon={service.icon}
+                    className="font-40px red-color"
+                  />
+                  <h3 className="font-600">{service.title}</h3>
+                  <p className="font-400 mt-20 dark-color">{service.text}</p>
+                </div>
+              </div>
+              <div style={{border:"10px solid black"}} className="box-back height-500px white-bg">
+                <div className="content-wrap">
+                  <Icofont
+                    icon={service.icon}
+                    className="font-40px yellow-color"
+                  />
+                  <h3 className="font-600 dark-color">{service.title}</h3>
+                  <p className="font-400 mt-20 dark-color">{service.text}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 ));
 
 export default OurServices;
+
+
+
+//
+

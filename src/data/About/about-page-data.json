@@ -1,26 +1,33 @@
 [
   {
     "id": 1,
-    "title": "WEB DESIGN",
-    "text": "Designing a good website that accommodates a lot of content is a tricky balancing act to pull off.",
-    "icon": "diamond"
+    "icon": "test-tube-alt",
+    "title": "Creative UI/UX Design",
+    "text": "Making details memorable with pixel-perfect designs and smooth UX is very important to us. We understand user needs and create experiences that solve design challenges and also make people happy. What makes our service unique is the mix of design, technology, and human-centered approach to produce custom visualizations, dashboards, input-intensive applications, and videos."
   },
   {
     "id": 2,
-    "title": "APP DEVELOPMENT",
-    "text": "We build mobile apps for the conference, integrating unique content and branding to create.",
-    "icon": "paint"
+    "icon": "computer",
+    "title": "Web Development",
+    "text": "Website Design & Development, E-commerce & CMS, UX & UI Design, API & 3rd party Integrations, Responsive Design Support & Maintenance, Web & Social Apps. We create website according to your needs"
   },
   {
     "id": 3,
-    "title": "DIGITAL MARKETING",
-    "text": "Google has made this important since 1998 when it launched. Content became, and still is king since websites.",
-    "icon": "rocket-alt-2"
+    "icon": "android-nexus",
+    "title": "Mobile Application Development",
+    "text": "When it comes to mobile applications and mobile development services, we are leading this world in Pakistan. Whether it is android version or ios version, we are adept and deft and our designers are making fascinating and incredible innovations in mobile industry. Our android developers are making application keeping in minds the pros and cons.Well-created content and integrated strategies. We not only boost your company, our highly experienced team increase CRO and take your business to the next level.As you tackle complex development projects to grow your business, you'll need the right partner for your needs.That’s why we’ve tailored our process to mitigate risk at every turn on behalf of our partners, reducing time wasted, and accelerating project development. We get to know your vision, help craft your product, and bring it to market fast, keeping you apprised of every step along the way"
   },
   {
-    "id": 4,
-    "title": "UI / UX FRIENDLY",
-    "text": "UX design refers to the term user experience design, while UI design stands for user interface design.",
-    "icon": "laptop-alt"
+    "id": 1,
+    "icon": "brainstorming",
+    "title": "Machine Learning /AI",
+    "text": "ith the introduction of digital and embracing new message streams from digital, a new approach to making sense of all this data is needed. Artificial Intelligence and Machine Learning (the engine behind AI) gives computers the ability to make sense of and learn from data to perform specific tasks without manual interference. It provides analysis and insights to users, addressing the large amounts of structured and unstructured business and industry data that companies increasingly need to consider as part of their decision-making process."
+  },
+  {
+    "id": 2,
+    "icon": "abacus-alt",
+    "title": "Dev Ops",
+    "text": "We use DevOps to accelerate your team’s performance by operationalizing and automating SDLC. Our expertise in the DevOps space has earned us a partnership with AWS. With CI/CD pipeline, continuous monitoring & testing, container orchestration, cloud optimization, and other key areas, we can significantly reduce time-to-market, ensure faster release deployments and optimize cloud costs with our in-house DevOps tool."
   }
+  
 ]

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import ReactWOW from "react-wow";
+import AWS from "aws-sdk";
+
+require('dotenv').config();
+
 
 const ContactForm = ({ title, tagline }) => {
   const [inputs, setInputs] = useState({});
@@ -7,6 +11,41 @@ const ContactForm = ({ title, tagline }) => {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setInputs({ ...inputs, [name]: value });
+  };
+
+   const submit = async (e) => {
+    e.preventDefault()
+    
+    
+    
+    const SESConfig = {
+
+      apiVersion: "2010-12-01",
+      accessKeyId:process.env.REACT_APP_KEY_ID,
+      secretAccessKey:process.env.REACT_APP_KEY_SECRET,
+      region: process.env.REACT_APP_REGION
+
+    }
+
+    var params = {
+      Source:process.env.REACT_APP_SOURCE,
+      Destination: { /* required */
+        ToAddresses: [
+          process.env.REACT_APP_SOURCE
+          /* more To email addresses */
+        ]
+      },
+      Message: {
+        Body:{Html:{Data:inputs.name}},
+        Subject:{
+          Data:'This is the subject'
+        }
+      }
+      
+    };
+
+    new AWS.SES(SESConfig).sendEmail(params).promise().then((res) => {console.log(res);})
+    console.log(inputs)
   };
 
   return (
@@ -88,10 +127,9 @@ const ContactForm = ({ title, tagline }) => {
         </ReactWOW>
         <ReactWOW animation="fadeTop" delay="0.4s">
           <button
-            type="submit"
-            name="submit"
-            className="btn btn-green btn-circle"
             
+            className="btn btn-green btn-circle"
+            onClick={submit}
           >
            Send
           </button>

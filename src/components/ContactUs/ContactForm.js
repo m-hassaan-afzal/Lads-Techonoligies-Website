@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactWOW from "react-wow";
+import axios from 'axios';
 
 const ContactForm = ({ title, tagline }) => {
   const [inputs, setInputs] = useState({});
@@ -9,6 +10,26 @@ const ContactForm = ({ title, tagline }) => {
     setInputs({ ...inputs, [name]: value });
   };
 
+   const submit = async (e) => {
+    e.preventDefault()
+    console.log(inputs)
+    axios.post(`https://jsonplaceholder.typicode.com/users`, { inputs })
+      .then(res => {
+        console.log(res);
+        console.log(res.data);
+      })
+  };
+
+  // const getProducts = function () {
+  //   return axios.get( API_URL + '/mock-server/product-demo1.json' )
+  //   .then( function ( response ) {
+  //   return response.data;
+  //   } )
+  //   .catch( function ( error ) {
+  //   // handle error
+  //   console.log( error );
+  //   } );
+   
   return (
     <>
       {title && (
@@ -88,10 +109,9 @@ const ContactForm = ({ title, tagline }) => {
         </ReactWOW>
         <ReactWOW animation="fadeTop" delay="0.4s">
           <button
-            type="submit"
-            name="submit"
-            className="btn btn-green btn-circle"
             
+            className="btn btn-green btn-circle"
+            onClick={submit}
           >
            Send
           </button>

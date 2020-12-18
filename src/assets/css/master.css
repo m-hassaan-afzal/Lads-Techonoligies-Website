@@ -4879,8 +4879,8 @@ ul.social-top li a{
 .restaurant-content h1{font-size: 120px!important;line-height: 150px;text-transform: uppercase;font-weight: 700;}
 
 .left_parallax {position: absolute;left: 80pt;}
-.left_parallax .vertical-text{-webkit-transform-origin: 0 50%;-ms-transform-origin: 0 50%;transform-origin: 0 50%;-webkit-transform: rotate(-90deg) translate(-50%, 50%);
--ms-transform: rotate(-90deg) translate(-50%, 50%);transform: rotate(-90deg) translate(-50%, 50%); }
+.left_parallax .vertical-text{-webkit-transform-origin: 0 50%;-ms-transform-origin: 0 30%;transform-origin: 0 40%;-webkit-transform: rotate(-90deg) translate(-65%, 25%);
+  -ms-transform: rotate(-90deg) translate(-50%, 50%);transform: rotate(-90deg) translate(-65%, 40%); }
 .parallax_img {position: absolute;margin-top: 100pt;}
 .parallax_img.left_one {width: 80pt;height: 80pt;}
 .parallax_img.left_two {width: 50pt;height: 50pt;}
@@ -4888,9 +4888,10 @@ ul.social-top li a{
 .chunkyText {font-size: 80pt;}
 
 .right_parallax {position: absolute;right: 80pt;}
-.right_parallax .vertical-text{-webkit-transform-origin: 0 50%;-ms-transform-origin: 0 50%;transform-origin: 0 50%;-webkit-transform: rotate(-90deg) translate(-50%, 50%);
--ms-transform: rotate(-90deg) translate(-50%, 50%);transform: rotate(-90deg) translate(-50%, 50%); }
+.right_parallax {
 
+  -webkit-transform-origin: 0 50%;-ms-transform-origin: 0 50%;transform-origin: 0 40%;-webkit-transform: rotate(0) translate(10%,50%);
+}
 
 /*=======================================================
       Widgets / Shortcodes

@@ -5,12 +5,12 @@ import serviceOneImg from "../../assets/images/onepage-bg-left.jpg";
 import HeaderTwo from "../../components/Header/HeaderTwo";
 import HeroSliderSection from "../../components/Hero/HeroSliderSection";
 import OurServices from "../../components/OurServices/OurServices";
-import WhoWeAreNine from "../../components/WhoWeAre/WhoWeAreNine";
 import OurTeam from "../../components/Team/OurTeam";
-
+import CounterOne from "../../components/Counters/CounterOne"
 import CTAOne from "../../components/CTA/CTAOne";
 import FooterOne from "../../components/Footer/FooterOne";
 import WhoWeAreOne from "../../components/WhoWeAre/WhoWeAreOne";
+import TestimonialsOne from "../../components/Testimonials/TestimonialsOne"
 
 
 const CreativeOnePage = () => {
@@ -18,6 +18,7 @@ const CreativeOnePage = () => {
   const about = useRef();
   const service = useRef();
   const team = useRef();
+  const Testimonial = useRef();
   const contact = useRef();
 
   const scrollToSection = (e, content) => {
@@ -58,6 +59,7 @@ const CreativeOnePage = () => {
     >
       We develop innovative and creative products and services that provide total communication and information solutions. Our emphasis is on offering a high degree of product user friendliness through a positive, creative and focused company staff.
     </WhoWeAreOne>
+    <CounterOne />
        
       </div> 
       <div ref={service}>
@@ -74,7 +76,12 @@ const CreativeOnePage = () => {
       <OurTeam title="MEET OUR TEAM" tagline="WE ARE STRONGER" bg="white"   />
       
       </div>
+
+      <div ref={Testimonial}>
     
+      <TestimonialsOne title="Testimonials" tagline="Happy clients" />
+      </div>
+     
       
 
         <div ref={contact}>

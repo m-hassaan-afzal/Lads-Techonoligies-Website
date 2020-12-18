@@ -27,14 +27,14 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
                   <p className="font-400 mt-20 dark-color">{service.text}</p>
                 </div>
               </div>
-              <div style={{border:"10px solid black"}} className="box-back height-500px white-bg">
+              <div style={{border:"3px solid white"}} className="box-back height-500px red-bg">
                 <div className="content-wrap">
                   <Icofont
                     icon={service.icon}
-                    className="font-40px red-color"
+                    className="font-40px white-color"
                   />
-                  <h3 className="font-600 dark-color">{service.title}</h3>
-                  <p className="font-400 mt-20 dark-color">{service.text}</p>
+                  <h3 className="font-600 white-color">{service.title}</h3>
+                  <p className="font-400 mt-20 white-color">{service.text}</p>
                 </div>
               </div>
             </div>

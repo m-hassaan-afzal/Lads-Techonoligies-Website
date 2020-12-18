@@ -44,12 +44,14 @@ const HeroSliderSection = forwardRef(({ data }, ref) => {
                   <div className="hero-text">
                     <div className="container  text-center">
                         
-                        <h1 style={{color:""}} className=" red-color text-uppercase  font-700">
-                          {slide.title}
-                        </h1>
-                        <h2  className="white-color font-500 letter-spacing-5">
+
+                    <h2  className="white-color font-500 letter-spacing-5">
                           {slide.tagline ? slide.tagline : ""}
                         </h2>
+                        <h1 style={{color:""}} className=" white-color text-uppercase  font-700">
+                          {slide.title}
+                        </h1>
+                        
                       <h3  className="white-color font-400">
                         {slide.text ? parse(slide.text) : ""}
                       </h3>

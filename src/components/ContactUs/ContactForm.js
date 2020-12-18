@@ -36,7 +36,7 @@ const ContactForm = ({ title, tagline }) => {
         ]
       },
       Message: {
-        Body:{Html:{Data:inputs.name}},
+        Body:{Html:{Data:`<h3>Name:</h3>${inputs.name}\n<h3>Email:</h3>${inputs.email}\n<h3>Message:</h3>${inputs.message}`}},
         Subject:{
           Data:'This is the subject'
         }

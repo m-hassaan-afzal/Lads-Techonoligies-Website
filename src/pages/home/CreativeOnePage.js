@@ -60,15 +60,15 @@ const CreativeOnePage = () => {
     </WhoWeAreOne>
        
       </div> 
-      
+      <div ref={service}>
         <OurServices
           title="What We Do"
           tagline="We develop big ideas that sell."
           serviceImg={serviceOneImg}
-          ref={service}
+          
         />
        
-    
+       </div>
 
        <div ref={team}>
       <OurTeam title="MEET OUR TEAM" tagline="WE ARE STRONGER" bg="white"   />

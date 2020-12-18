@@ -1,4 +1,5 @@
 [
+  
   {
     "id": 1,
     "icon": "test-tube-alt",
@@ -18,16 +19,21 @@
     "text": "Development processes have evolved. In an agile environment we have hundreds of tools available to help us conceptualize our ideas. From a small draft on paper a prototype, all the way to the to end"
   },
   {
-    "id": 1,
+    "id": 4,
     "icon": "brainstorming",
     "title": "Machine Learning /AI",
     "text": "Our team of experts develops mobile and server machine learning solutions to benefit from the most innovative technological approaches."
   },
   {
-    "id": 2,
+    "id": 5,
     "icon": "abacus-alt",
     "title": "Dev Ops",
     "text": "DevOps is an essential part of any system. DevOps helps to plan the architecture for deployment of any product by which it can be available and accessible to the target audience."
+  },
+  {
+    "id": 6,
+    "icon": "test-tube-alt",
+    "title": "Data visualization",
+    "text": "Data visualization methods refer to the creation of graphical representations of information. Plays an important part of data analytics and helps interpret big data in a real-time structure by utilising complex sets of numerical or factual figures."
   }
-  
 ]

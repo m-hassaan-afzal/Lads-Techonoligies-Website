@@ -31,7 +31,7 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
                 <div className="content-wrap">
                   <Icofont
                     icon={service.icon}
-                    className="font-40px yellow-color"
+                    className="font-40px red-color"
                   />
                   <h3 className="font-600 dark-color">{service.title}</h3>
                   <p className="font-400 mt-20 dark-color">{service.text}</p>

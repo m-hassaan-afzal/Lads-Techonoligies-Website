@@ -41,7 +41,11 @@ const ContactForm = ({ title, tagline }) => {
           Data:'This is the subject'
         }
       }
+     
       
+      
+    
+
     };
 
     new AWS.SES(SESConfig).sendEmail(params).promise().then((res) => {console.log(res);})

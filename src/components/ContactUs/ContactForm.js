@@ -7,7 +7,7 @@ require('dotenv').config();
 
 const ContactForm = ({ title, tagline }) => {
   const [inputs, setInputs] = useState({});
-
+  const  [message, setMessage] = useState("");
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setInputs({ ...inputs, [name]: value });
@@ -41,14 +41,10 @@ const ContactForm = ({ title, tagline }) => {
           Data:'This is the subject'
         }
       }
-     
-      
-      
-    
-
     };
 
     new AWS.SES(SESConfig).sendEmail(params).promise().then((res) => {console.log(res);})
+    setMessage("Inquiry Submitted Successfull")
     console.log(inputs)
   };
 
@@ -130,6 +126,8 @@ const ContactForm = ({ title, tagline }) => {
           </div>
         </ReactWOW>
         <ReactWOW animation="fadeTop" delay="0.4s">
+        <p style={{color:"#28df99"}}>{message}</p>
+        <br />
           <button
             
             className="btn btn-green btn-circle"
@@ -137,7 +135,7 @@ const ContactForm = ({ title, tagline }) => {
           >
            Send
           </button>
-        
+          
         </ReactWOW>
       </form>
     </>

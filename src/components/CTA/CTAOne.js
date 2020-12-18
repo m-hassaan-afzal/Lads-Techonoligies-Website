@@ -23,7 +23,7 @@ const CTAOne = ({ title, tagline, bg, textButton, linkButton, children }) => (
           <div className="cta-heading-right ">
             <p className="mt-20 content-text">{children && parse(children)}</p>
             <a href="mailto:Amishmaqbool@gmail.com" className="mt-20 content-text">info@ladstech.com</a>
-            <p className="mt-50">
+            <p className="mt-70">
               {/* <a
                 className={
                   "btn btn-rounded " +

@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Randy Bell",
-        "role": "UI/UX Designer",
+        "name": "Muhammad Azim",
+        "role": "Chairman Lads Technologies",
         "image": "team/team-01.jpg",
         "social": [
             {
@@ -24,8 +24,8 @@
     },
     {
         "id": 2,
-        "name": "Alice Andrews",
-        "role": "Photographers",
+        "name": "Muhammad Hassaan Afzal",
+        "role": "CTO Lads Technologies",
         "image": "team/team-02.jpg",
         "social": [
             {
@@ -47,8 +47,8 @@
     },
     {
         "id": 3,
-        "name": "Nicholas Hart",
-        "role": "Web Developer",
+        "name": "Muhammad Abbas",
+        "role": "CEO Lads Technologies",
         "image": "team/team-03.jpg",
         "social": [
             {

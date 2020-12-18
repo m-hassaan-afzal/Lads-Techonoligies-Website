@@ -20,7 +20,8 @@ const FooterOne = () => (
                   </a>
                 </div>
                 <p>
-                Were a creative technology lab that delivers ground breaking experiences through web and mobile development, we have no boundaries in terms of ability if a client needs a certain piece of functionality or flow, Lads Technology will put time and effort into learning what it will take to complete that task.
+                We develop innovative and creative products and services that provide total communication and information solutions. Our emphasis is on offering a high degree of product user friendliness through a positive, creative and focused company staff.
+
                 </p>
               </div>
             </div>
@@ -74,7 +75,9 @@ const FooterOne = () => (
                 <ul>
                   <li>
                     <i className="icofont icofont-google-map"></i>
+                    
                     <a href="#!">Plaza number 206 hub commercial bahira town phase 8</a>
+                    
                   </li>
                   {/* <li>
                     <i className="icofont icofont-iphone"></i>

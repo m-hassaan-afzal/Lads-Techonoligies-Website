@@ -10,7 +10,7 @@ import CounterOne from "../../components/Counters/CounterOne"
 import CTAOne from "../../components/CTA/CTAOne";
 import FooterOne from "../../components/Footer/FooterOne";
 import WhoWeAreOne from "../../components/WhoWeAre/WhoWeAreOne";
-import TestimonialsOne from "../../components/Testimonials/TestimonialsOne"
+
 
 
 const CreativeOnePage = () => {
@@ -79,7 +79,7 @@ const CreativeOnePage = () => {
 
       <div ref={Testimonial}>
     
-      <TestimonialsOne title="Testimonials" tagline="Happy clients" />
+      
       </div>
      
       

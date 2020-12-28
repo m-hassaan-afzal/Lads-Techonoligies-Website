@@ -76,7 +76,7 @@ const FooterOne = () => (
                   <li>
                     <i className="icofont icofont-google-map"></i>
                     
-                    <a href="#!">Plaza number 206 hub commercial bahira town phase 8</a>
+                    <a href="#!">Plaza number 206 hub commercial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bahira town phase 8</a>
                     
                   </li>
                    <li>

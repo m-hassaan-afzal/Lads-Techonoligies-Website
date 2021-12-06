@@ -4,7 +4,7 @@
     "title": "FOR WEB & MOBILE",
     "tagline": "Digital Theme",
     "text": "We develop products and services for ecommerce, insurance <br /> and a handful of other key industries",
-    "image": "slides/home-bg-1.jpg",
+    "image": "slides/bg-img1.svg",
     "buttons": [
       {
         "id": 1,
@@ -18,7 +18,7 @@
     "id": 2,
     "title": "EXPERIENCE DESIGN AGENCY",
     "tagline": "Visualizing Innovation",
-    "image": "slides/home-bg-2.jpg",
+    "image": "slides/bg-img1.svg",
     "bg": "true",
     "buttons": [
       {

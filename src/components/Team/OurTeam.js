@@ -20,7 +20,7 @@ const OurTeam = ({ title, tagline, bg, extraSpace }) => (
     <div className="row">
       <HeadingSection classAppend="white-color" title={title} tagline={tagline} />
     </div>
-    <div className="container-fluid">
+    <div className="container">
       <div className="row mt-50">
         {teamData.map((member, i) => {
           return (

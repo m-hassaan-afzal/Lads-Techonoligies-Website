@@ -17,23 +17,18 @@ function App() {
     <Router basename={"/"}>
       <ScrollToTop>
         <Switch>
-         
+              
           <Route
             exact
             path={`${process.env.PUBLIC_URL}/`}
             component={CreativeOnePage}
           />
-
-<Route
+          <Route
             exact
             path={`${process.env.PUBLIC_URL}/contactus`}
             component={Contact}
           />
-          
-          
 
-
-          
           <Route component={Page404} />
         </Switch>
       </ScrollToTop>

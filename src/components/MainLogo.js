@@ -18,7 +18,7 @@ const MainLogo = ({ collapse, showMenu }) => {
       <Icofont icon="navigation-menu" />
     </button>
     <div className="logo">
-      <a href="index.html">
+      <a href="/">
         <img className="logo logo-display" src={logoWhite} alt="" />
         <img className="logo logo-scrolled" src={logoBlack} alt="" />
       </a>

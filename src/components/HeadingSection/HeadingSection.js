@@ -9,7 +9,7 @@ const HeadingSection = ({ title, tagline, classAppend, font, children }) => {
         }
       >
         <ReactWow animation="fadeInUp" delay="0.1s">
-          <h2 className={ font ? font : ""}>{title}</h2>
+          <h2 className={ font ? font : ""} style={{color: "#212121"}}>{title}</h2>
         </ReactWow>
         {
           tagline && <ReactWow animation="fadeInUp" delay="0.2s">

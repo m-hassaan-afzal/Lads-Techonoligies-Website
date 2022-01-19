@@ -19,7 +19,7 @@ const FooterCopyright = () => (
         </div>
         <div className="col-md-6 col-xs-12">
           <div className="copy-right text-right">
-            © 2020 Lads Technologies . All rights reserved
+            © 2022 Lads Technologies . All rights reserved
           </div>
         </div>
       </div>

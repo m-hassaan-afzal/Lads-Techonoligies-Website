@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import HeadingSection from "../HeadingSection/HeadingSection";
 import TestimonialItem from "./TestimonialItem";
 import testimonialsData from "../../data/Testimonials/testimonials-data.json";
+import "../HeadingSection/custom.css"
 
 const TestimonialsOne = ({ title, tagline, font }) => {
   const settings = {
@@ -28,7 +29,8 @@ const TestimonialsOne = ({ title, tagline, font }) => {
             title={title}
             tagline={tagline}
             classAppend="white-color"
-            font={font}
+            colorClass="white-heading-color"
+            font={font }
           />
         </div>
         <div className="row">

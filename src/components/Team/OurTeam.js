@@ -2,6 +2,7 @@ import React from "react";
 import teamData from "../../data/Team/team-data.json";
 import HeadingSection from "../HeadingSection/HeadingSection";
 import TeamMember from "./TeamMember";
+// import "../HeadingSection/custom.css"
 
 
 const OurTeam = ({ title, tagline, bg, extraSpace }) => (
@@ -18,7 +19,7 @@ const OurTeam = ({ title, tagline, bg, extraSpace }) => (
       ""
     )}
     <div className="row">
-      <HeadingSection classAppend="white-color" title={title} tagline={tagline} />
+      <HeadingSection  title={title} tagline={tagline} colorClass="red-heading-color"/>
     </div>
     <div className="container">
       <div className="row mt-50">

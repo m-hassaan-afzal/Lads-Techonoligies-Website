@@ -1,20 +1,50 @@
 [
     {
       "id": 1,
-      "title": "Lads Technologies",
-      "tagline": "Developing & Designing",
-      "text": "Don't throw all your ideas away.There is always a solution",
-      "image": "slides/home-bg1.jpg",
+      "title": "Bring Forward the Youth",
+      "tagline": "Enabling Youth",
+      "text": "We believe on providing the platform to the young talent.",
+      "image": "slides/bg-home1.png",
       "buttons": [
      
       ]
     },
     {
       "id": 2,
-      "title": "IDENTIFICATION DESIGN",
-      "tagline": "Research & Problem Solving",
-      "text":"No puzzle is hard to solve all you need is experience and expertise's",
-      "image": "slides/home-bg2.jpg",
+      "title": "Team-Focused Environment",
+      "tagline": "Boost Employee Morale",
+      "text":" We focus on increasing team integration.",
+      "image": "slides/bg-home2.png",
+      "buttons": [
+       
+      ]
+    },
+    {
+      "id": 3,
+      "title": "We Create Software Solutions",
+      "tagline": "Innovative & Quality",
+      "text":"We provide the most technologically advanced experience",
+      "image": "slides/bg-home3.png",
+      "buttons": [
+       
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Adaptive to Technological Advancements",
+      "tagline": "Modern & State-of-Art Products",
+      "text":"We create software solutions that incorporate technological advancements.",
+      "image": "slides/bg-home4.png",
+      "buttons": [
+       
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Research, Design & Develop Market.",
+      "tagline": "Novel Products",
+      "text":"We aim to focus on all development phases",
+      "image": "slides/bg-home5.png",
       "buttons": [
        
       ]

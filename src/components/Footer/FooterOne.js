@@ -21,7 +21,6 @@ const FooterOne = () => (
                 </div>
                 <p>
                 We develop innovative and creative products and services that provide total communication and information solutions. Our emphasis is on offering a high degree of product user friendliness through a positive, creative and focused company staff.
-
                 </p>
               </div>
             </div>

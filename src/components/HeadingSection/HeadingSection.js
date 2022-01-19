@@ -1,7 +1,9 @@
-import React from "react";
+import React,{useState} from "react";
 import ReactWow from "react-wow";
+import './custom.css';
 
-const HeadingSection = ({ title, tagline, classAppend, font, children }) => {
+const HeadingSection = ({ title, tagline, classAppend,colorClass,font, children }) => {
+
   return (
       <div
         className={
@@ -9,11 +11,11 @@ const HeadingSection = ({ title, tagline, classAppend, font, children }) => {
         }
       >
         <ReactWow animation="fadeInUp" delay="0.1s">
-          <h2 className={ font ? font : ""} style={{color: "#212121"}}>{title}</h2>
+          <h2 className={ font ? font : ""} className={colorClass}>{title}</h2>
         </ReactWow>
         {
           tagline && <ReactWow animation="fadeInUp" delay="0.2s">
-          <h4 className={"text-uppercase " + (font ? font : "")}>{`- ${tagline} -`}</h4>
+          <h4 className={"text-uppercase" + (font ? font : "")}>{`- ${tagline} -`}</h4>
         </ReactWow>
         }
         {children ? (

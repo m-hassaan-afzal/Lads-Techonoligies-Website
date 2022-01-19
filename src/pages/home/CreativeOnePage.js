@@ -22,7 +22,7 @@ const CreativeOnePage = () => {
   const service = useRef();
   const team = useRef();
   const Testimonial = useRef();
-  const contact = useRef();
+  const contact = useRef(); 
 
 
   const scrollToSection = (e, content) => {
@@ -104,10 +104,9 @@ const CreativeOnePage = () => {
         
       <CTAOne
       tagline="careers"
-      title="Let's write your story, together............"
+      title="Let's write your story, together"
       textButton="Contact us"
       linkButton="contactus"
-      
     >
      We believe in “learn one, do one, teach one”. Each new member of Our team is assigned a mentor for their professional, personal and career development. Lets Work Together send us your resume:
       

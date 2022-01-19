@@ -4,7 +4,7 @@ import logoBlack from "../assets/images/logo-black.png";
 
 import Icofont from "react-icofont";
 
-const MainLogo = ({ collapse, showMenu }) => {
+const MainLogo = ({collapse, showMenu }) => {
 
   return (
   <div className="navbar-header">

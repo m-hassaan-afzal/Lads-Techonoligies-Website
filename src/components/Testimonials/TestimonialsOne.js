@@ -30,7 +30,7 @@ const TestimonialsOne = ({ title, tagline, font }) => {
             tagline={tagline}
             classAppend="white-color"
             colorClass="white-heading-color"
-            font={font }
+            font={font}
           />
         </div>
         <div className="row">

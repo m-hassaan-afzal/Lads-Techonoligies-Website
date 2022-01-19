@@ -24,7 +24,7 @@ const AboutAppStyle = forwardRef((props, ref) => (
                   key={feature.id}
                   animation="fadeInLeft"
                   delay={`0.${i + 1}s`}
-                >
+                > 
                   <div className="feature-box text-left">
                     <div className="pull-left">
                       <Icofont

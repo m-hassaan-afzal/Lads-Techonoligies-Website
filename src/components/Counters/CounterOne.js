@@ -27,12 +27,13 @@ const CounterOne = ({ bg }) => {
               <div className="col-md-3 counter text-center col-sm-6">
                 <h2
                   className={
-                    "count font-700 " + (bg === "white-bg" ? "" : "white-color")
+                    "count font-700" + (bg === "white-bg" ? "" : "white-color")
                   }
                 >
                   <VisibilitySensor onChange={viewChangeHandler} delayedCall>
-                    <CountUp end={viewed ? counter.value : 0} />
+                    <CountUp end={viewed ? counter.value : 0}  />
                   </VisibilitySensor>
+                  <span>{counter.postFix}</span>
                 </h2>
                 <h3 className={bg === "white-bg" ? "dark-color" : ""}>
                   {counter.title}

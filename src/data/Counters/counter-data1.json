@@ -1,22 +1,26 @@
 [
   {
     "id": 1,
-    "value": "100",
+    "value": 100,
+    "postFix":"M+",
     "title": "App Downloads"
   },
   {
     "id": 2,
     "value": "9",
+    "postFix":"",
     "title": "Years of Experience"
   },
   {
     "id": 3,
     "value": "27650",
+    "postFix":"",
     "title": "Hours of Project"
   },
   {
     "id": 4,
     "value": "105",
+    "postFix":"",
     "title": "Products Released"
   }
 

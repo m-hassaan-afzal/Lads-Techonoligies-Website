@@ -43,7 +43,7 @@ const AboutAppStyle = forwardRef((props, ref) => (
         </div>
         <ReactWow animation="fadeInUp" delay="0.2s">
           <div className="col-md-4 col-sm-12 ">
-            <img className="img-responsive " src={img} alt="service" />
+            <img className="img-responsive " src={img} alt="servicesss" />
           </div>
         </ReactWow>
         <div className="col-md-4 col-sm-12">

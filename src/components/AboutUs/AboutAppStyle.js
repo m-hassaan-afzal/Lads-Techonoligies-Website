@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import ReactWow from "react-wow";
 import dataAbout from "../../data/About/about-appstyle-data.json";
-// import img from "../../assets/images/slides/services.jpeg";
+import img from "../../assets/images/slides/home-bg-34.jpg";
 import Icofont from "react-icofont";
 
 const AboutAppStyle = forwardRef((props, ref) => (
@@ -43,7 +43,7 @@ const AboutAppStyle = forwardRef((props, ref) => (
         </div>
         <ReactWow animation="fadeInUp" delay="0.2s">
           <div className="col-md-4 col-sm-12 ">
-            <img className="img-responsive " src="services.jpeg" alt="service" />
+            <img className="img-responsive " src={img} alt="service" />
           </div>
         </ReactWow>
         <div className="col-md-4 col-sm-12">

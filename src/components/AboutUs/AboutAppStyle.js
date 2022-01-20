@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import ReactWow from "react-wow";
 import dataAbout from "../../data/About/about-appstyle-data.json";
-import img from "../../assets/images/slides/Banner-JPG-Format.jpg";
+import img from "../../assets/images/slides/service.png";
 import Icofont from "react-icofont";
 
 const AboutAppStyle = forwardRef((props, ref) => (

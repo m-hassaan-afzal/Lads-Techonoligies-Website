@@ -13,7 +13,7 @@
       "id": 2,
       "title": "The Team-Focused Environment",
       "tagline": "Boost Employee Morale",
-      "text":" Our main focus is to team integration  for employees ",
+      "text":" Our main focus is team integration  for employees ",
       "image": "slides/bg-home2.png",
       "buttons": [
        
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "title": "Our Technological Advancements",
+      "title": "Technological Advancements",
       "tagline": "Adaptive to",
       "text":"We create software solutions that incorporate technological advancements.",
       "image": "slides/bg-home4.png",
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "title": "Research, Design & Develop Market.",
+      "title": "Research, Design Develop & Market.",
       "tagline": "Novel Products",
       "text":"We aim to focus on state of the art development phases",
       "image": "slides/bg-home5.png",

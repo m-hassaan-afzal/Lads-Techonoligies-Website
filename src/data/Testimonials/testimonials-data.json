@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "avatar": "team/avatar-1.jpg",
-    "name": "Michael Hans",
-    "role": "Founder & CEO of Scoda",
-    "text": "Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat."
+    "avatar": "team/Faiq-sb.jpg",
+    "name": "Faiq Siddique",
+    "role": "",
+    "text": "My experience while working with Lads Technologies has been great. The management is catering and full of innovative ideas. I can attest that it holds a great future."
   },
   {
     "id": 2,
-    "avatar": "team/avatar-2.jpg",
-    "name": "Jane Beck",
-    "role": "CEO of Scoda",
-    "text": "Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat."
+    "avatar": "team/Ameen-Babar.jpg",
+    "name": "Ameen Babar",
+    "role": "",
+    "text": "I have been part of Lads Technologies for months now and my experience has been full of colors. The culture is positive, where leads push you forward while colleagues guide you every step of the way."
   },
   {
     "id": 3,
-    "avatar": "team/avatar-3.jpg",
-    "name": "Kevin Hall",
-    "role": "CEO of Scoda",
-    "text": "Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat."
+    "avatar": "team/Syeda-Warqa-Zaka.jpg",
+    "name": "Syeda Warqa Zaka",
+    "role": "",
+    "text": "What I like the most about Lads Technologies is the mentorship management provides you. It’s like every day is full of learning while not compromising on entertainment and freedom of employees."
   }
 ]

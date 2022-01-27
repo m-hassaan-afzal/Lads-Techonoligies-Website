@@ -2,16 +2,12 @@
   {
     "id": 1,
     "icon": "facebook",
-    "link": "!#"
+    "link": "https://www.facebook.com/Ladstechnologies"
   },
-  {
-    "id": 2,
-    "icon": "twitter",
-    "link": "!#"
-  },
+
   {
     "id": 3,
     "icon": "linkedin",
-    "link": "!#"
+    "link": "https://pk.linkedin.com/company/lads-technologies"
   }
 ]
